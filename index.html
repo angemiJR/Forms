@@ -18,19 +18,24 @@
 
 <body>
     <div class="container">
+        <!-- <div class="image">
+            <img src="./images/duck2.png" alt="rubber duck">
+        </div> -->
+        
         <div class="red">
             <div class="form">
                 <label for="full_name">FULL NAME</label>
-                <input type="text" name="full_name" id="full_name">
+                <input type="text" name="full_name" id="full_name" required autofocus>
 
                 <label for="email">EMAIL</label>
-                <input type="email" placeholder="Your Email" id="email">
+                <input type="email" placeholder="Your Email" id="email" required>
 
                 <label for="message_regarding">MESSAGE REGARDING</label>
-                <input type="text" id="message_regarding">
+                <input type="text" id="message_regarding" required>
 
                 <label for="messge">MESSAGE</label>
-                <textarea name="message" id="message" placeholder="Your massage" rows="1" cols="30"></textarea>
+                <textarea name="message" id="message" placeholder="Your massage" rows="1" cols="30" required
+                    maxlength="400" minlength="5"></textarea>
 
                 <button type="submit">SEND MESSAGE</button>
             </div>
