@@ -1,4 +1,4 @@
-body{
+body {
 
     display: flex;
     justify-content: center;
@@ -65,10 +65,16 @@ label {
     color: #FCFFFF;
 }
 
-input, textarea {
- background-color: #BE0909;
- border: none;
- border-bottom: 2px solid #9DBEBB;
+input,
+textarea {
+    background-color: #BE0909;
+    border: none;
+    border-bottom: 2px solid #9DBEBB;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #FDFFFF;
+    opacity: 100%;
 }
 
 textarea {
@@ -85,6 +91,6 @@ textarea {
 }
 
 .image {
-z-index: 2;
+    z-index: 2;
 
 }
