@@ -13,7 +13,7 @@ body{
     align-items: center;
 }
 
-.form {
+form {
     width: 400px;
     height: 466px;
     display: flex;
